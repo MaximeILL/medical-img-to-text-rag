@@ -1,6 +1,7 @@
 # Medical Image-to-Text RAG System
 
-This project implements an image-to-text RAG system for medical imaging. It generates detailed descriptions of medical images using CLIP and a specialized instruct-tuned Llama model, leveraging data from the Hugging Face dataset PathVQA and PAD-UFES-20 from Kaggle.
+This project implements an advanced image-to-text Retrieval-Augmented Generation (RAG) system specifically designed for medical imaging. It utilizes CLIP for embedding generation and a specialized instruct-tuned Llama model (M42-Health/Llama3-Med42-8B) for generating detailed and informative descriptions of medical images. The system integrates datasets such as PathVQA (from Hugging Face) and PAD-UFES-20 (from Kaggle), processing them in a unified pipeline.
+By incorporating weighted consensus scoring, the system refines candidate text matches by aggregating similarity scores across multiple candidates. This ensures that the generated descriptions are contextually relevant while acknowledging the limitations of AI models, particularly in sensitive domains where the stakes are high, such as healthcare. It represents a reasonable approach in such critical fields.
 
 ## Project Overview
 
