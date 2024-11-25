@@ -5,11 +5,11 @@ The system uses weighted consensus scoring to evaluate and refine candidate text
 
 ## Project Overview
 
-*Data Processing*: Reformats datasets into an image-description format. The PAD-UFES-20 dataset, originally tabular, is converted into paired image-description entries. Similarly, the PathVQA dataset, initially structured as a Q&A database, is transformed into an image-description format for consistent processing.
+- *Data Preprocessing*: Reformats datasets into an image-description format. The PAD-UFES-20 dataset, originally tabular, is converted into paired image-description entries. Similarly, the PathVQA dataset, initially structured as a Q&A database, is transformed into an image-description format for consistent processing.
 
-*Vector Database*: Uses KDB.AI to store embeddings of images and text descriptions for efficient similarity-based retrieval.
+- *Vector Database*: Uses KDB.AI to store embeddings of images and text descriptions for efficient similarity-based retrieval.
 
-*Application*: Provides a user interface for uploading medical images, retrieving relevant descriptions, and generating detailed medical insights.
+- *Application*: Provides a user interface for uploading medical images, retrieving relevant descriptions, and generating detailed medical insights.
 
 ## System Pipeline
 <img src="/pipeline/schema_ragf.png" alt="Our RAG Pipeline" />
