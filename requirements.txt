@@ -1,0 +1,12 @@
+pandas
+numpy
+torch
+Pillow
+transformers
+datasets
+kdbai_client
+scikit-learn
+tqdm
+ipywidgets
+ipython
+matplotlib
